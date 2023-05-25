@@ -15,13 +15,14 @@
 .header > a,
 .subtext,
 .signup,
+.footer,
 button {
     font-size: 18px;
     color: #E5E7EB;
 }
 
 button,
-.con-4 {
+.signup {
     background-color: #3882f6;
 }
 
@@ -105,6 +106,7 @@ a {
     justify-content: center;
     gap: 50px;
     text-align: center;
+    flex-wrap: wrap;
 }
 .cards p {
     width: 150px;
@@ -132,6 +134,30 @@ a {
     padding-right: 100px;
 }
 
+.con-4 {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.signup {
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 100px 25px 100px;
+}
+.signup-text {
+    display: flex;
+    flex-direction: column;
+}
+.signup > button {
+    border: 2px solid #E5E7EB
+}
+
+.footer {
+    text-align: center;
+    padding: 24px;
+}
 
 
 
@@ -151,7 +177,8 @@ a {
 button {
     width: 125px;
     height: 30px;
-    border-radius: 15px;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .header,
